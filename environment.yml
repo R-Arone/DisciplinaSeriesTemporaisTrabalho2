@@ -1,0 +1,21 @@
+name: seriestemporais  # Replace with your desired environment name
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9  # Adjust version if needed
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=11.8  # Adjust CUDA version as needed
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - mne
+  - scipy
+  - tqdm
+  - mlflow
+  - torchmetrics
+  - pip
+  - pip:
+      - torchvie
